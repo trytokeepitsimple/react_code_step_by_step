@@ -7,11 +7,12 @@ import ClassComponent from "./ClassComponent";
 import Form from "./Form";
 import Student from "./Student";
 import Get_Input_Values from "./Get_Input_Values";
+import HIde_Show from "./HIde_Show";
 
 function App() {
   return (
     <div className="App">
-       <Get_Input_Values></Get_Input_Values>
+       <HIde_Show></HIde_Show>
     </div>
   );
 }
