@@ -8,11 +8,12 @@ import Form from "./Form";
 import Student from "./Student";
 import Get_Input_Values from "./Get_Input_Values";
 import HIde_Show from "./HIde_Show";
+import Input_fields from "./Input_fields";
 
 function App() {
   return (
-    <div className="App">
-       <HIde_Show></HIde_Show>
+    <div className="App" style={{marginTop:"50%"}}>
+       <Input_fields></Input_fields>
     </div>
   );
 }
